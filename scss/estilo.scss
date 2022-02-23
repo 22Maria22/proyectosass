@@ -1,0 +1,49 @@
+@import "variables";
+/*logo*/
+nav{
+    div{
+        a{
+        background-color: $color;
+        font-size: 35px !important;
+        padding: 15px !important;
+            
+
+        }
+    }
+}
+
+/*menu*/
+nav{
+    div{
+        div{
+            ul{
+                li{
+                    a{
+                        color: blue !important;
+                        font-size: 25px !important;
+                        &:hover{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*imagen principal*/
+.imagen_1 {
+    margin: 5%;
+    width: 80%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* texto pagina index*/
+h1, h4 {
+    background-color: $color;
+}
+
